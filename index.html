@@ -1,376 +1,391 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en">
-<!--<![endif]-->
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en" itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
 <head>
 
-<!-- Basic Page Needs ================================================== 
-================================================== -->
+  <!-- Meta tags & title /-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>ShowPage - An Easy to Use Free Responsive Landing Page</title>
+  <meta name="description" content="This template is an easy to use app landing page, responsive and pretty easy to customize including some great easing effects, modal window, a sticky header with share buttons & others stuff !" />
+  <meta name="keywords" content="Free, template, easy to use, customise, one page, template, simple, minimal, landing page, app page, supview" />
+  <meta name="author" content="Supview - François Martin">
 
-<meta charset="utf-8">
-<title>Freebix Responsive Site Template</title>
-<meta name="description" content="Place to put your description text">
-<meta name="author" content="">
-<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+  <!-- Favicon /-->
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon" /> <!-- Favicon /-->
 
-<!-- Mobile Specific Metas ================================================== 
-================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-
-<!-- CSS ==================================================
-================================================== -->
-
-<link rel="stylesheet" href="css/base.css">
-<link rel="stylesheet" href="css/skeleton.css">
-<link rel="stylesheet" href="css/screen.css">
-<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" />
-
-<!-- Favicons ==================================================
-================================================== -->
-
-<link rel="shortcut icon" href="images/favicon.png">
-<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-
-<!-- Google Fonts ==================================================
-================================================== -->
-<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+  <!-- Stylesheets /-->
+  <link rel="stylesheet" href="css/gumby.css">   			<!-- Gumby Framework /-->
+  <link rel="stylesheet" href="css/style.css">   			<!-- Main stylesheet /-->
+  <link rel="stylesheet" href="css/animate.css"> 			<!-- Animations /-->
+    
+  
+  <script src="js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
+  
 </head>
+
+
 <body>
 
-<!--Content Part ==================================================
-================================================== -->
-<div id="header">
-  <div class="container"> 
-    <!-- Header | Logo, Menu
-		================================================== -->
-    <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
-    <div class="mainmenu">
-      <div id="mainmenu">
-        <ul class="sf-menu">
-          <li><a href="index.html" id="visited">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a>
-            <ul>
-              <li><a href="portfolioproject.html">Portfolio Project</a></li>
-            </ul>
-          </li>
-          <li><a href="blog.html">Blog</a>
-            <ul>
-              <li><a href="singleblog.html">Single Post</a></li>
-            </ul>
-          </li>
-          <li><a href="features.html">Features</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <!-- mainmenu ends here --> 
-      
-      <!-- Responsive Menu -->
-      <form id="responsive-menu" action="#" method="post">
-        <select>
-          <option value="">Navigation</option>
-          <option value="index.html">Home</option>
-          <option value="about.html">About</option>
-          <option value="portfolio.html">Portfolio</option>
-          <option value="portfolioproject.html">Portfolio Project</option>
-          <option value="blog.html">Blog</option>
-          <option value="singleblog.html">Single Post</option>
-          <option value="features.html">Features</option>
-          <option value="contact.html">Contact</option>
-        </select>
-      </form>
-    </div>
-    <!-- mainmenu ends here --> 
-  </div>
-  <!-- container ends here --> 
+<!-- Preload the Whole Page -->
+
+<div id="preloader">   		
+<div id="loading-animation">&nbsp;</div>
 </div>
-<!-- header ends here --> 
-<!-- Slider ==================================================
-================================================== -->
-<section class="slider">
-  <div class="flexslider">
-    <ul class="slides">
-      <li> <a href="#"><img src="images/flexslider/1.jpg" alt=""/></a>
-        <section class="caption">
-          <h2 class="shadow3">I am Freebix!</h2>
-          <p>Free, fully responsive HTML site template made by <a href="http://www.anarieldesign.com/" rel="nofollow"><strong>Anariel Design</strong></a></p>
-          <a class="button" href="#">Download me!</a></section>
-      </li>
-      <li> <img src="images/flexslider/2.jpg" alt="" />
-        <section class="caption">
-          <h2 class="shadow3">I am Freebix!</h2>
-          <p>Free, fully responsive HTML site template made by <a href="http://www.anarieldesign.com/" rel="nofollow"><strong>Anariel Design</strong></a></p>
-          <a class="button" href="#">Download me!</a></section>
-      </li>
-      <li> <a href="#"><img src="images/flexslider/3.jpg" alt="" /></a>
-        <section class="caption">
-          <h2 class="shadow3">I am Freebix!</h2>
-          <p>Free, fully responsive HTML site template made by <a href="http://www.anarieldesign.com/" rel="nofollow"><strong>Anariel Design</strong></a></p>
-          <a class="button" href="#">Download me!</a></section>
-      </li>
-    </ul>
-  </div>
-  <!-- flexslider ends here --> 
+
+
+<!-- NAVIGATION ############################################### -->
+
+
+		<div class="cbp-af-header">
+		
+			<nav >
+				
+				<!--  Share DIV--> 
+
+				 <div class="right">
+
+					<!--  Facebook Share Button--> 
+	
+<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.baribal.be%2Fshowpage%2F&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:170px; height:20px; margin-right:20px;" ></iframe>
+	
+				 	<!-- Twitter Share Button --> 
+		
+<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	
+					 
+				 </div> <!-- End Share dIV -->
+
+				 <!-- Logo -->
+			
+				 <div id="logo">
+				 
+				 	<a href="#"><img alt="Logo" src="img/logo.png"></a>
+				 	
+				 </div>
+				
+				 <!-- Links -->
+				
+				 <ul id="nav" >
+				 
+					 <li><a href="http://www.iamsupview.be">The Author</a></li>
+					 					 
+					 <li><a href="http://www.baribal.be/showpage/dl/">Get it</a></li>
+					 
+				 </ul>
+				 			 
+			</nav>
+
+		
+		</div> 
+
+<!-- END NAVIGATION ############################################### -->
+
+
+<!-- HEADER / FIRST SECTION ############################################### -->
+
+
+<section class="page1">
+
+		      	<!-- Huge Title centered --> 
+		      
+		        <div class="huge-title centered">  
+		        
+		          <div class="logo-phone centered"><img alt="YOURLOGO" src="img/logo-phone.png"></div>  <!-- This Logo is only displayed on Tablet/iPhone !-->  
+		      
+		          <h1>A Simple & Easy To Use Free App Landing Page</h1>
+		          
+		          <div class="space"></div>
+		          
+		          <a href="#container" class="button-white goto">Discover more</a> 
+		  	  
+		  	    </div>
+		  	  
+		  	    <!-- IMG DISCOVER MORE --> 
+		  	  
+		  	    <div class="go-down twelve columns">
+		  	  
+		  	      <a href="#container" class="goto"><img src="img/down.png" alt="MORE"></a>
+		  	  
+		  	    </div>
+
 </section>
-<!-- slider ends here --> 
-<!-- info Box ==================================================
-================================================== -->
-<div class="infobox">
-  <div class="container info">
-    <header>
-      <h1>Introducing Freebix!</h1>
-      <p class="infop">- Free, fully <span class="pink">responsive HTML</span> site template made by <a href="http://www.anarieldesign.com/" rel="nofollow"><strong>Anariel Design</strong></a> -</p>
-    </header>
-    <hr class="separator">
-  </div>
-  <!-- container ends here --> 
+
+
+<!-- END HEADER ############################################### -->
+
+
+
+<!-- BEGIN CONTAINER ############################################### -->
+
+
+<div id="container" class="container">
+
+
+<!-- SECOND SECTION ############################################### -->
+
+
+<section class="page2">
+
+	<div class="row">
+		
+				<div class="six columns article make-it-appear-right">
+				
+					<!-- Title --> 
+				
+					<h3>A Elegant Design</h3>
+								
+					<!-- Content --> 
+					
+					<p>Bacon ipsum dolor sit amet meatball shank pork chop capicola fatback pork loin sirloin flank. <b>Andouille</b> tongue corned beef rump pork loin shank meatball capicola turducken venison shankle kevin pancetta tri-tip boudin.</p>
+										
+					<div class="space"></div>
+					
+					<a  class="js-open-modal button-blue">blue button with Modal video</a> 
+					
+				
+				</div>
+				
+				<!-- Image from right --> 
+			
+				<div class="five columns picture make-it-appear-left" >
+				
+					<img src="img/1.png" alt="EXEMPLE">
+				
+				</div>
+		
+			</div> <!-- End row div -->    
+
+</section>
+
+<!-- END SECOND SECTION ############################################### -->
+
+
+
+
+<!-- TIRTH SECTION ############################################### -->
+
+
+<section class="page3" >
+
+	<div class="row">
+
+				<!-- Image from left --> 
+			
+				<div class="five columns picture make-it-appear-right" >
+				
+					<img src="img/2.png" alt="EXEMPLE">
+				
+				</div>
+
+		
+				<div class="six columns article make-it-appear-left">
+				
+					<!-- Title --> 
+				
+					<h3>Pretty easy to customize</h3>
+								
+					<!-- Content --> 
+					
+					<p>Bacon ipsum dolor sit amet meatball shank pork chop capicola fatback pork loin sirloin flank. <b>Andouille</b> tongue corned beef rump pork loin shank meatball capicola turducken venison shankle kevin pancetta tri-tip boudin.</p>
+										
+					<div class="space"></div>
+					
+					<a class="js-open-modal button-green">Another Button</a> 
+				
+				</div>
+				
+		
+			</div> <!-- End row div -->    
+</section>
+
+<!-- END TIRTH SECTION ############################################### -->
+
+
+
+<!-- Modal Window --> 
+
+<div class='modal' id='modal'>
+
+	  <div class='modal-content modal-anim--three'>
+	  
+		<iframe src="//player.vimeo.com/video/64291127?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="560" height="306" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	
+	  </div>
+	  
 </div>
-<!-- infobox ends here --> 
-<!--Latest Photos ==================================================
-================================================== -->
-<div class="container latest">
-  <div class="one_third">
-    <figure class="shadow"><a href="#" class="thumb"><img src="images/portfolio/a.jpg" alt="alt" /></a>
-      <figcaption> <a href="#">
-        <h3 class="heading">Retro Movie</h3>
-        </a>
-        <p class="bioquote">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. </p>
-      </figcaption>
-    </figure>
-  </div>
-  <!-- one_third ends here -->
-  <div class="one_third">
-    <figure class="shadow"><a href="#" class="thumb"><img src="images/portfolio/b.jpg" alt="alt" /></a>
-      <figcaption> <a href="#">
-        <h3 class="heading">Retro Movie</h3>
-        </a>
-        <p class="bioquote">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. </p>
-      </figcaption>
-    </figure>
-  </div>
-  <!-- one_third ends here -->
-  <div class="one_third lastcolumn">
-    <figure class="shadow"><a href="#" class="thumb"><img src="images/portfolio/c.jpg" alt="alt" /></a>
-      <figcaption> <a href="#">
-        <h3 class="heading">Retro Movie</h3>
-        </a>
-        <p class="bioquote">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. </p>
-      </figcaption>
-    </figure>
-  </div>
-  <!-- one_third ends here --> 
-</div>
-<!-- end container --> 
-<!--Heading Box ==================================================
-================================================== -->
-<div class="headingblock">
-  <div class="container heading">
-    <header>
-      <h2>Introducing Freebix!</h2>
-      <p>- Free, fully <span class="pink">responsive HTML</span> site template made by <a href="http://www.anarieldesign.com/" rel="nofollow"><strong>Anariel Design</strong></a> -</p>
-    </header>
-  </div>
-  <!-- container ends here -->
-  <hr class="separator1">
-</div>
-<!-- headingblock ends here --> 
-<!-- Latest News & Faq ==================================================
-================================================== -->
-<div class="container latest">
-  <div class="two_third">
-    <div class="accordion-trigger">
-      <h3>What did you eat for breakfast?</h3>
-    </div>
-    <div class="accordion-container">
-      <div class="one_third"> <img class="shadow" src="images/portfolio/a.jpg" alt="" /> </div>
-      <!--end one_third-->
-      <div class="one_third"> <img class="shadow" src="images/portfolio/b.jpg" alt="" /> </div>
-      <!--end one_third-->
-      <div class="one_third lastcolumn"> <img class="shadow" src="images/portfolio/c.jpg" alt="" /> </div>
-      <!--end one_third-->
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. </p>
-      <hr class="separator1">
-    </div>
-    <div class="accordion-trigger">
-      <h3>Morning or Night person?</h3>
-    </div>
-    <div class="accordion-container">
-      <div class="one_half">
-        <div class="video-holder">
-          <div class="video-container">
-            <iframe title="YouTube video player" class="youtube-player" src="http://www.youtube.com/embed/W7JXcoTty3Q"></iframe>
-          </div>
-          <!--video-container ends here--> 
-        </div>
-        <!--video-holder ends here--> 
-      </div>
-      <!--end one_half-->
-      <div class="one_half lastcolumn">
-        <div class="video-holder">
-          <div class="video-container">
-            <iframe title="YouTube video player" class="youtube-player" src="http://www.youtube.com/embed/W7JXcoTty3Q"></iframe>
-          </div>
-          <!--video-container ends here--> 
-        </div>
-        <!--video-holder ends here--> 
-      </div>
-      <!--end one_half-->
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. </p>
-      <hr class="separator1">
-    </div>
-    <div class="accordion-trigger">
-      <h3>If you were a animal, which would you be?</h3>
-    </div>
-    <div class="accordion-container">
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. </p>
-      <hr class="separator1">
-    </div>
-    <div class="accordion-trigger">
-      <h3>Your favorite places in the world?</h3>
-    </div>
-    <div class="accordion-container">
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. </p>
-      <hr class="separator1">
-    </div>
-    <div class="accordion-trigger">
-      <h3>Your favorite color?</h3>
-    </div>
-    <div class="accordion-container">
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. </p>
-      <hr class="separator1">
-    </div>
-    <div class="accordion-trigger">
-      <h3>The 5 things you can't live without?</h3>
-    </div>
-    <div class="accordion-container">
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
-      <hr class="separator1">
-      <!-- ENDS Accordions --> 
-    </div>
-  </div>
-  <!-- two_third ends here -->
-  <div class="one_third lastcolumn">
-    <h3>New Entries</h3>
-    <article>
-      <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
-      <p class="quote">One morning, when Gregor Samsa woke from troubled dreams.</p>
-      <a href="#" title="">&rarr; download</a></article>
-    <hr class="separator1">
-    <article>
-      <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
-      <p class="quote">One morning, when Gregor Samsa woke from troubled dreams.</p>
-      <a href="#" title="">&rarr; download</a></article>
-    <hr class="separator1">
-    <article>
-      <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
-      <p class="quote">One morning, when Gregor Samsa woke from troubled dreams.</p>
-      <a href="#" title="">&rarr; download</a></article>
-  </div>
-  <!-- one_third ends here --> 
-</div>
-<!-- end container --> 
-<!-- Socialize ==================================================
-================================================== -->
-<hr class="separator2">
-<div class="socialsblock">
-  <div class="container socialize">
-    <h3>Socialize with us!</h3>
-    <section class="socials">
-      <ul class="socials">
-        <li><a href="#"><img src="images/socials/twitter.png" alt="" /></a></li>
-        <li><a href="#"><img src="images/socials/facebook.png" alt="" /></a></li>
-        <li><a href="#"><img src="images/socials/dribbble.png" alt="" /></a></li>
-        <li><a href="#"><img src="images/socials/google+.png" alt="" /></a></li>
-        <li><a href="#"><img src="images/socials/linkedin.png" alt="" /></a></li>
-        <li><a href="#"><img src="images/socials/youtube.png" alt="" /></a></li>
-      </ul>
-    </section>
-  </div>
-  <!-- container ends here --> 
-</div>
-<!-- socialsblock ends here --> 
-<!-- Footer ==================================================
-================================================== -->
-<div class="footer">
-  <div class="container">
-    <div class="one_fourth">
-      <h3>Contact Informations</h3>
-      <p><span class="orange"><strong>Address:</strong></span> <br>
-        No.2 - 123678 street name City, Country</p>
-      <p><span class="orange"><strong>Phone:</strong></span> <br>
-        + 9 (094) 067 93567<br>
-      </p>
-      <p><span class="orange"><strong>Email:</strong></span> <br>
-        info@yoursite.com<br>
-      </p>
-    </div>
-    <!-- four columns ends here -->
-    <div class="one_fourth">
-      <h3>Blogroll</h3>
-      <ul>
-        <li><a href="#" title="">Development Blog</a></li>
-        <li><a href="#" class="">New Freebies</a></li>
-        <li><a href="#" class="">Themeforest Theme</a></li>
-        <li><a href="#" class=""> Design News</a></li>
-        <li><a href="#" class="">WordPress Theme</a></li>
-      </ul>
-    </div>
-    <!-- four columns ends here -->
-    <div class="one_fourth">
-      <h3>Archive</h3>
-      <ul>
-        <li><a href="#" class=""> August 2012</a></li>
-        <li><a href="#" class="">July 2012</a></li>
-        <li><a href="#" class="">Juny 2012</a></li>
-        <li><a href="#" class=""> May 2012</a></li>
-        <li><a href="#" class="">April 2012</a></li>
-      </ul>
-    </div>
-    <!-- four columns ends here -->
-    <div class="one_fourth lastcolumn">
-      <h3>About</h3>
-      <p>Freebix is responsive, simple and clean template with a lot attention to detail. Get it now!</p>
-      <p>Visit <a href="http://anarieldesign.com/" rel="nofollow">Anariel Design</a> and find more interesting things.</p>
-    </div>
-    <!-- four columns ends here --> 
-  </div>
-  <!-- container ends here --> 
-</div>
-<!-- footer ends here --> 
-<!-- Copyright ==================================================
-================================================== -->
-<div id="copyright">
-  <div class="container">
-    <p class="copyright">&copy; Copyright 2013. &quot;Freebix&quot; by <a href="http://www.anarieldesign.com/" rel="nofollow">Anariel Design</a>. All rights reserved.</p>
-  </div>
-  <!-- container ends here --> 
-</div>
-<!-- copyright ends here --> 
-<!-- End Document
-================================================== --> 
-<!-- Scripts ==================================================
-================================================== --> 
-<script src="js/jquery-1.8.0.min.js" type="text/javascript"></script> 
-<!-- Main js files --> 
-<script src="js/screen.js" type="text/javascript"></script> 
-<!-- Tabs --> 
-<script src="js/tabs.js" type="text/javascript"></script> 
-<!-- Include prettyPhoto --> 
-<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script> 
-<!-- Include Superfish --> 
-<script src="js/superfish.js" type="text/javascript"></script> 
-<script src="js/hoverIntent.js" type="text/javascript"></script> 
-<!-- Flexslider --> 
-<script src="js/jquery.flexslider-min.js" type="text/javascript"></script> 
-<!-- Modernizr --> 
-<script type="text/javascript" src="js/modernizr.custom.29473.js"></script>
-</body>
+
+
+
+<!-- FOURTH SECTION ############################################### -->
+
+
+
+<section class="page4">
+
+	<div class="row">
+		
+				<div class="four columns article make-it-appear-right">
+				
+					<!-- Title --> 
+				
+					<h3>Pretty Simple and Detailed Code.</h3>
+								
+					<!-- Content --> 
+					
+					<p>Here is the simple exemple of the next section, as you can see, everything is pretty well detailed and easy to understand.</p>
+										
+					<div class="space"></div>
+					
+				
+				</div>
+				
+				<!-- Image --> 
+			
+				<div class="seven columns picture make-it-appear-left" >
+				
+<pre>
+		    	<!-- Article centered on the Page --> 
+		
+				<div class="twelve columns centered make-it-appear-top">
+
+					<!-- Title --> 
+				
+					<h4>Finally! Simple and fair pricing.</h4>
+													
+					<!-- Content --> 
+				
+				
+					<div class="cost">
+						<p class="symbol">$</p>
+						<p class="value">0</p>
+					</div>
+					
+	
+				</div>
+</pre>
+				
+				</div>
+		
+			</div> <!-- End row div -->    
+
+</section>
+
+
+<!-- END FOURTH SECTION ############################################### -->
+
+
+
+<!-- FIFTH SECTION ############################################### -->
+
+
+<section class="page5">
+
+		
+		    <div class="row">
+		    
+		    	<!-- Article centered on the Page --> 
+		
+				<div class="twelve columns centered make-it-appear-top">
+
+					<!-- Title --> 
+				
+					<h4>Finally! Simple and fair pricing.</h4>
+													
+					<!-- Content --> 
+				
+					<h1>€0</h1>
+				
+					
+	
+				</div>
+				
+		
+		    </div>
+			
+
+</section>
+
+
+<!-- END FIFTH SECTION ############################################### -->
+
+
+<!-- FOOTER SECTION ############################################### -->
+
+
+<section class="footer">
+
+		
+		    <div class="row">
+		    
+		    	<!-- Article centered on the Page --> 
+		
+				<div class="nine columns centered">
+				
+					<!-- Nav Footer --> 
+				
+					<ul> 
+						<li><a href="http://www.iamsupview.be">About Supview</a> </li> 
+						<li> <a href="http://www.baribal.be/showpage/dl/">Get it</a> </li> 
+						<li> <a href="http://dribbble.com/Supview">Dribbble</a> </li> 
+						<li> <a href="http://www.facebook.com/Supview" rel="nofollow">Facebook</a> </li> 
+						<li> <a href="http://twitter.com/Supview" rel="nofollow">Twitter</a> </li> 
+						<li> <a href="http://www.behance.net/Supview" rel="nofollow">Behance</a> </li> 
+					</ul>
+
+					<!-- Title --> 
+																
+					<p class="copyright">Showpage is a free app landing page made by <a href="http://www.iamsupview.be">Supview</a> and is under  <a href="http://creativecommons.org/licenses/by/4.0/">CC License</a> <br>© Copyright 2014 Supview. All rights reserved.</p>	
+	
+					<!-- Logo --> 
+	
+	
+					<img class="logo" src="img/logo.png" alt="Logo">
+	
+				</div>
+				
+		
+		    </div>
+			
+
+</section>
+
+
+<!-- END FOOTER SECTION ############################################### -->
+
+
+
+
+
+</div> <!-- end of container -->
+
+
+  <!-- Grab Google CDN's jQuery, fall back to local if offline -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+  
+  <script src="js/main.js" type="text/javascript"></script> 								<!-- Main Javascript File -->
+  <script src="js/classie.js" type="text/javascript"></script> 								<!-- Scroll from left & right -->
+  <script src="js/waypoints.min.js" type="text/javascript"></script>						<!-- Waypoints -->
+  <script src="js/jquery.scrollto.js" type="text/javascript"></script> 						<!-- ScrollTo -->	
+  <script src="js/mediaCheck.js" type="text/javascript"></script> 							<!-- MediaCheck -->	
+
+
+  
+  <!-- Change UA-XXXXX-X to be your site's ID -->
+  <!--<script>
+    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+  </script>  -->
+
+  </body>
+  
 </html>
